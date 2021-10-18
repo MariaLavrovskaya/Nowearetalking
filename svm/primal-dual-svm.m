@@ -103,7 +103,6 @@ toc
 %% Convergence Analysis 
 %% Empirical convergence rates
 %
-% repeat for PD and barrier
 
 conPDr = convergenceHistory(infoPD, [], F, 2); % using 2-norm.
 % conPD.x_nw = sqrt(sum((infoPD.xs_nw - repmat(infoPD.xs(:,end),1,size(infoPD.xs_nw ,2))).^2,1));
