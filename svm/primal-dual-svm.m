@@ -172,6 +172,7 @@ fplot(fn2,'Linewidth',1);
 xlabel ('Positive - blue dots , Negative - red dots')
 hold off
 
+
 % Save result 
  saveas(gcf, '/Users/user/Desktop/UCL_CS_Masters/num-opt/Courseworks/CW4/project-images/IP-c10.png')
  
